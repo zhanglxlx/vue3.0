@@ -1,5 +1,7 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <Reactive/>
+  <hr>
   <CompositionOption/>
   <hr>
   <HelloWorld msg="Hello Vue 3.0 + Vite" />
@@ -21,6 +23,7 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import CompositionOption from './components/Composition_option.vue'
+import Reactive from './components/reactive.vue'
 
 export default {
   name: 'App',
@@ -62,7 +65,8 @@ export default {
   },
   components: {
     HelloWorld,
-    CompositionOption
+    CompositionOption,
+    Reactive
   }
 }
 </script>
