@@ -1,5 +1,6 @@
 <template>
   <div id="compositionOption">
+    <h2>composition api 和option api 的混合使用</h2>
     <p>{{name}}</p>
     <button @click="myFn">按钮</button>
     <p>{{age}}</p>
@@ -42,7 +43,7 @@ export default {
       age.value++
       // alert("bbb")
     }
-    console.log(this)
+    // console.log(this)
     // console.log(this.name) //: Cannot read property 'name' of undefined
     // this.myFn1()
     return {age,myFn1}

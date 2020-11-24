@@ -1,5 +1,6 @@
 <template>
   <div id="reactive">
+    <h2>reactive的理解</h2>
     {{state}} <br>
     对象 {{state.age}}<br>
     数组对象 {{state}} <br>

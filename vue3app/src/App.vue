@@ -1,9 +1,20 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <ToRaw/>
+  <hr>
+  <ShallowRef/>
+  <hr>
+  <Diguijianting/>
+  <hr>
+  <IsrefIsreactive/>
+  <hr>
+  <Ref/>
+  <hr>
   <Reactive/>
   <hr>
   <CompositionOption/>
   <hr>
+  <h2>vue3.0的使用方法</h2>
   <HelloWorld msg="Hello Vue 3.0 + Vite" />
   <p>
     {{msg}}
@@ -24,6 +35,11 @@
 import HelloWorld from './components/HelloWorld.vue'
 import CompositionOption from './components/Composition_option.vue'
 import Reactive from './components/reactive.vue'
+import Ref from './components/ref.vue'
+import IsrefIsreactive from './components/isref_isreactive.vue'
+import Diguijianting from './components/diguijianting.vue'
+import ShallowRef from './components/shallowRef.vue'
+import ToRaw from './components/toRaw.vue'
 
 export default {
   name: 'App',
@@ -66,7 +82,12 @@ export default {
   components: {
     HelloWorld,
     CompositionOption,
-    Reactive
+    Reactive,
+    Ref,
+    IsrefIsreactive,
+    Diguijianting,
+    ShallowRef,
+    ToRaw
   }
 }
 </script>
