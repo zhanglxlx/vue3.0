@@ -1,5 +1,9 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <ToRef/>
+  <hr>
+  <MarkRaw/>
+  <hr>
   <ToRaw/>
   <hr>
   <ShallowRef/>
@@ -40,6 +44,8 @@ import IsrefIsreactive from './components/isref_isreactive.vue'
 import Diguijianting from './components/diguijianting.vue'
 import ShallowRef from './components/shallowRef.vue'
 import ToRaw from './components/toRaw.vue'
+import MarkRaw from './components/markRaw.vue'
+import ToRef from './components/toRef.vue'
 
 export default {
   name: 'App',
@@ -87,7 +93,9 @@ export default {
     IsrefIsreactive,
     Diguijianting,
     ShallowRef,
-    ToRaw
+    ToRaw,
+    MarkRaw,
+    ToRef
   }
 }
 </script>
