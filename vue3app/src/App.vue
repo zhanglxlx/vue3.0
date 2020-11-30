@@ -1,5 +1,9 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <Readonly/>
+  <hr>
+  <CustomRef/>
+  <hr>
   <ToRef/>
   <hr>
   <MarkRaw/>
@@ -46,6 +50,8 @@ import ShallowRef from './components/shallowRef.vue'
 import ToRaw from './components/toRaw.vue'
 import MarkRaw from './components/markRaw.vue'
 import ToRef from './components/toRef.vue'
+import CustomRef from './components/customRef.vue'
+import Readonly from './components/readonly.vue'
 
 export default {
   name: 'App',
@@ -95,7 +101,9 @@ export default {
     ShallowRef,
     ToRaw,
     MarkRaw,
-    ToRef
+    ToRef,
+    CustomRef,
+    Readonly
   }
 }
 </script>
